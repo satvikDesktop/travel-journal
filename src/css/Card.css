@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap');
+
+.card {
+    display:flex;
+    flex-direction : row;  
+    align-items: center;
+    padding-right:10rem;
+    padding-left:10rem;
+    margin:5rem;
+    font-family:Inter,sans-serif;    
+}
+.card--image{
+    object-fit: cover;
+    width:15rem;
+    height:20rem;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+}
+.head {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dates {
+    margin-top:-1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#2B283A;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+.card--location {
+    color:#2B283A;
+    font-weight:600;
+    font-size:15px;
+}
+.card--gLink{
+   color:gray;
+   font-size:15px;
+}
+.card--title{
+    color:#2B283A;
+    font-weight: 700;
+}
+.loc--image{
+    width:15px;
+}
+.card--date{
+    font-weight:600;
+}
+
+.solid {
+        width: 50%;
+        height: 0.2px;
+        background-color: #00000005;
+        margin: 0 auto;
+        opacity:0.3;
+}
+.card--desc{
+    margin-top:-0.2rem;
+}
